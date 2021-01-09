@@ -1,0 +1,29 @@
+{
+  "name": "matcha",
+  "version": "1.0.0",
+  "description": "### Install resources 1. npm init -y 2. npm i express bcryptjs jsonwebtoken config express-validator mongoose // dependencies 3. npm i -D nodemon concurrently // devDependencies 4. Postman 5. .gitignore file with 'node_modules/'",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm i && npm i ./backend/ && npm i ./frontend/ && node ./backend/install.js",
+    "dev": "concurrently \"cd backend && npm run server\" \"cd frontend && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timohive/matcha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timohive/matcha/issues"
+  },
+  "homepage": "https://github.com/timohive/matcha#readme",
+  "dependencies": {
+    "backend": "file:backend",
+    "frontend": "file:frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  }
+}

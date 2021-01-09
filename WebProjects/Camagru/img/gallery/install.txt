@@ -1,0 +1,1 @@
+This exist since git doesn't allow empty folders.

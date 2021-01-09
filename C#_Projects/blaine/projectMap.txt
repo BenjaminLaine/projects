@@ -1,0 +1,70 @@
+Idea of this file is to mapout what to do in this project, what has been done and what is till in progress.
+
+Tier:
+2x new tech tiers.
+- pre hardmode tier wood
+	- Custom Tree
+Done	v Sword
+			v Chance to cause fire or poison debuff
+			v Chance to casue few different buffs
+Done	v Pick
+			- Some special effect
+Done	v Axe
+			- Some special effect
+Done	v Hammer
+			- Some special effect
+Done	v Rifle
+			v Convert normal bullets into mod bullets
+Done	v Bullet
+			v Enemy piercing rounds (pierce 1 target)
+			v Poison & Fire debuffs
+Done	v Mobility Accessory
+			v Spike effect
+			v Dash
+			v Multi jump
+			v Falldown immunity
+	- Combat Accessory
+		- Stacking crit
+		- Stacking dmg
+		- Scaling dmg reduction lower the hp
+		v Reduced ammo consumption by half
+		v Life leach 5%
+		v Knockback immunity
+Done	v Head Armor
+			v basic set bonus, run speed, regen, crit bonus
+			- TOOLTIP MISSING WHEN ALL PIECES EQUIPPED
+Done	v Chest Armor
+Done	v Leg Armor
+
+- hardmode tier metal
+	- Custom Ore
+	- Sword
+	- PickSaw, HamAxe
+	- Bow
+	- Arrow
+	- Immunity Accessory
+	- Invu Accessory
+	- Head Armor
+	- Chest Armor
+	- Leg Armor
+
+	- Expert accessory combination? 
+
+NPCs:
+2 Boss, 1 MiniBoss, 3 NormalEnemies, 1 NPC
+- pre hardmode
+	- 1 Boss, basic flying ball
+	- 1 Night Zombie, custom AI
+	- 1 Day Slime
+		v Multiply on death if not poisoned
+		- Reasonable loot
+		- Gore on death
+
+- hardmode
+	- 1 Boss, teleporting summoner
+	- 1 MiniBoss, wurm
+	- 1 Enemy, some basic enemy summoned by summoner
+	- 1 NPC, phone shop
+
+Buff:
+3 buffs, 3 Debuffs

@@ -1,0 +1,66 @@
+body {
+	background-color: rgb(0, 0, 0);
+}
+#inner {
+	background-color: rgb(50, 50, 50);
+	border: 1px solid rgb(50, 50, 50);
+	color: rgb(180, 180, 180);
+}
+
+#inner2 {
+	background-color: rgb(50, 50, 50);
+	border: 1px solid rgb(50, 50, 50);
+	color: rgb(180, 180, 180);
+}
+.form-control {
+	background-color: black;
+	border: 1px solid #000;
+}
+.border {
+	border: 1px solid #000!important;
+}
+.btn-primary {
+    color: rgb(180, 180, 180);
+    background-color: #016fe4;
+    border-color: #000000;
+}
+.custom-control-label {
+	color: rgb(180, 180, 180);
+}
+.img-thumbnail {
+	background-color: rgb(50, 50, 50);
+	border: 1px solid rgb(50, 50, 50);
+}
+.table {
+	color: rgb(180, 180, 180);
+}
+.text-black-50 {
+	color: rgba(180, 180, 180, 0.5)!important;
+}
+.pagination-sm .page-link {
+	color: rgb(180, 180, 180);
+	background-color: rgb(50, 50, 50);
+}
+.page-link {
+	background-color: rgb(50, 50, 50);
+	border: 1px solid rgb(50, 50, 50);
+}
+.page-item.disabled .page-link {
+	color: #838383;
+	background-color: rgb(50, 50, 50);
+	border-color: rgb(50, 50, 50);
+}
+.mr-auto, .mx-auto {
+	background-color: rgb(50, 50, 50);
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+	color: rgb(180, 180, 180);
+}
+.bg-light {
+	background-color: rgb(50, 50, 50)!important;
+}
+.btn-danger {
+	color: rgb(180, 180, 180);
+	background-color: #88000e;
+	border-color: #88000e;
+}

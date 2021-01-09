@@ -1,0 +1,85 @@
+/* NAVBAR
+--------------------------------------------------------------------- */
+
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	z-index: 1;
+	background-color: var(--navbar);
+	color: #bbb;
+	border-bottom: solid 3px #333;
+	padding-right: 2rem;
+}
+
+.navbar-title {
+	font-family: 'Nunito', sans-serif;
+	font-size: 2rem;
+}
+
+.navbar ul {
+	display: flex;
+	align-items: center;
+	list-style-position: inside;
+	margin:0;
+	padding:0;
+}
+
+.navbar li {
+	padding-left: 1.5rem;
+	white-space: nowrap;
+}
+
+.navbar a {
+	color: #fff;
+	text-shadow: 0 0 2px #333;
+}
+
+.navbar a:hover {
+	text-shadow: 0 0 5px #fff;
+	text-decoration: none;
+}
+
+.navbar a.active {
+	pointer-events: none;
+	cursor: default;
+	color: #fff;
+}
+
+.navbar .logo {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+}
+
+.navlink-text {
+	margin-left: 3px;
+}
+
+/* SMALLER RESOLUTION */
+
+@media screen and (max-width: 700px) {
+
+	.navbar {
+		padding-right: 1rem;
+	}
+
+	.navbar li {
+		padding-left: 1rem;
+	}
+
+	.navbar-title {
+		font-size: 1.5rem;
+	}
+
+	.navlink-icon {
+		font-size: 1.3rem;
+	}
+
+	.navlink-text {
+		display: none;
+	}
+}

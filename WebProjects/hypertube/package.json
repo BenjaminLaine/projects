@@ -1,0 +1,28 @@
+{
+  "name": "hypertube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "backend": "file:backend",
+    "concurrently": "^5.3.0",
+    "frontend": "file:frontend",
+    "src": "file:backend/src"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-all": "npm i && npm i ./backend/src && npm i ./frontend/",
+    "dev": "concurrently \"cd backend/src && npm run dev\" \"cd frontend && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timohive/hypertube.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timohive/hypertube/issues"
+  },
+  "homepage": "https://github.com/timohive/hypertube#readme"
+}

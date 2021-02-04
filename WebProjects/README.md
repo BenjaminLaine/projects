@@ -5,4 +5,4 @@ Matcha was my second project were we created a dating site. We did this using re
 js and nodejs, using postGreSQL as our database.
 
 Hypertube was my third project where we created video streaming site that uses
-torrents. We did this using react, js, nodejs and using mongoDB as out database.
+torrents. We did this using react, js, nodejs and using mongoDB as our database.
